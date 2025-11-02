@@ -56,10 +56,6 @@ func testAccInsight_basic(t *testing.T) {
 	})
 }
 
-// ============================================================================
-// PART 1: Add after testAccInsight_basic (around line 56)
-// ============================================================================
-
 func testAccInsight_AwsAccountName(t *testing.T) {
 	ctx := acctest.Context(t)
 	rName := sdkacctest.RandomWithPrefix(acctest.ResourcePrefix)
